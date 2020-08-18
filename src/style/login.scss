@@ -1,0 +1,6 @@
+@import "./mixin.scss";
+@import  "./variables.scss";
+
+.btn{
+    @include buttons($background,$white-background);
+}
